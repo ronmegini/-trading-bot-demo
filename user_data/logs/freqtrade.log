@@ -1,0 +1,1470 @@
+2023-11-13 13:27:02,516 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 13:27:02,518 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 13:27:02,519 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 13:27:02,519 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 13:27:02,520 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 13:27:02,520 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-11-13 13:27:02,543 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 13:27:02,545 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2023-11-13 13:27:02,546 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 13:27:02,547 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 13:27:02,551 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 13:27:02,552 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 13:27:02,565 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2023-11-13 13:27:02,566 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 13:27:02,567 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2023-11-13 13:27:02,568 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 13:27:02,568 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 13:27:02,569 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 13:27:02,570 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2023-11-13 13:27:02,570 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 13:27:02,571 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 13:27:02,571 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2023-11-13 13:27:02,572 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-11-13 13:27:02,573 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 13:27:02,573 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 13:27:02,574 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 13:27:02,574 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 13:27:02,575 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 13:27:02,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 13:27:02,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 13:27:02,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 13:27:02,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 13:27:02,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 13:27:02,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 13:27:02,579 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 13:27:02,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 13:27:02,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 13:27:02,581 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 13:27:02,582 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 13:27:02,582 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 13:27:02,583 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 13:27:02,583 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 13:27:02,584 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2023-11-13 13:27:02,584 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 13:27:02,586 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 13:27:02,587 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 13:27:02,594 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 13:27:10,228 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 13:27:10,338 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 13:27:10,340 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-11-13 13:27:10,606 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-11-13 13:27:11,520 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2023-11-13 13:27:11,537 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'USDC/USDT', 'BNT/USDT', 'TIA/USDT', 'MEME/USDT', 'GAS/USDT', 'MATIC/USDT', 'AVAX/USDT', 'XRP/USDT', 'FTT/USDT', 'DOGE/USDT', 'LINK/USDT', 'ORDI/USDT', 'FDUSD/USDT', 'FIL/USDT', 'RUNE/USDT', 'OP/USDT', 'ARB/USDT']
+2023-11-13 13:27:11,538 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 13:27:11,540 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2023-11-13 13:27:11,541 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2023-11-13 13:27:11,542 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 13:27:11,543 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2023-11-13 13:27:11,543 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2023-11-13 13:27:11,544 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 13:27:11,545 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 13:27:11,545 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 13:27:11,546 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 13:27:11,557 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 13:27:11,558 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2023-11-13 13:27:11,559 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2023-11-13 13:27:16,562 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:28:16,604 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:29:16,649 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:30:21,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:31:21,073 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:32:21,120 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:33:21,179 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:34:21,237 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:35:26,035 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:36:26,098 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:37:26,170 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:38:26,230 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:38:40,812 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-11-13 13:38:40,815 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-11-13 13:38:40,816 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-11-13 13:38:40,818 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-11-13 13:38:40,820 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-11-13 13:42:00,525 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 13:42:00,526 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 13:42:00,526 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 13:42:00,527 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 13:42:00,528 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 13:42:00,528 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 13:42:00,569 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 13:42:00,569 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 13:42:00,570 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 13:42:00,575 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 13:42:00,576 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 13:42:00,589 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2023-11-13 13:42:00,591 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 13:42:00,591 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 13:42:00,592 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 13:42:00,593 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 13:42:00,594 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 13:42:00,594 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 13:42:00,595 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 13:42:00,596 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2023-11-13 13:42:00,596 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-11-13 13:42:00,597 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 13:42:00,598 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 13:42:00,598 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 13:42:00,599 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 13:42:00,599 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 13:42:00,601 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 13:42:00,601 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 13:42:00,602 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 13:42:00,602 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 13:42:00,603 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 13:42:00,604 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 13:42:00,604 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 13:42:00,605 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 13:42:00,606 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 13:42:00,606 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 13:42:00,607 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 13:42:00,607 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 13:42:00,608 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 13:42:00,608 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 13:42:00,609 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 13:42:00,610 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 13:42:00,612 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 13:42:00,612 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 13:42:00,613 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 13:42:00,617 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 13:42:00,621 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 13:42:07,244 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 13:42:07,283 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 13:42:07,296 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 13:42:07,489 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-11-13 13:42:07,615 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2023-11-13 13:42:07,616 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-11-13 13:42:07,625 - uvicorn.error - INFO - Started server process [1]
+2023-11-13 13:42:07,625 - uvicorn.error - INFO - Waiting for application startup.
+2023-11-13 13:42:07,626 - uvicorn.error - INFO - Application startup complete.
+2023-11-13 13:42:07,627 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2023-11-13 13:42:07,640 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 13:42:07,645 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2023-11-13 13:42:07,646 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 13:42:07,648 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2023-11-13 13:42:07,649 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2023-11-13 13:42:07,649 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 13:42:07,650 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2023-11-13 13:42:07,651 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2023-11-13 13:42:07,652 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 13:42:07,652 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 13:42:07,653 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 13:42:07,655 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 13:42:07,655 - freqtrade.util.binance_mig - WARNING - Migrating binance futures pairs in database.
+2023-11-13 13:42:07,658 - freqtrade.util.binance_mig - WARNING - Done migrating binance futures pairs in database.
+2023-11-13 13:42:07,663 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 13:42:07,664 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2023-11-13 13:42:07,664 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2023-11-13 13:42:07,673 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 13:42:12,671 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:43:12,709 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:44:12,751 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:45:16,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:46:16,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:47:11,111 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 13:47:16,093 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:48:16,137 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:49:16,189 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:50:21,017 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:51:21,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:52:16,115 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 13:52:21,096 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:53:21,146 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:54:21,200 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:55:26,029 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:56:26,084 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:57:16,142 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 13:57:26,129 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:58:26,173 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 13:59:26,225 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:00:31,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:01:06,082 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:01:31,087 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:02:16,132 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:02:31,115 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:03:31,160 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:04:31,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:05:36,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:06:36,076 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:07:16,147 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:07:36,133 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:08:36,163 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:09:36,213 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:10:41,035 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:11:41,089 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:12:21,142 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:12:41,144 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:13:41,191 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:14:41,240 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:15:46,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:16:46,083 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:17:26,149 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:17:46,136 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:18:46,188 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:19:46,243 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:20:51,050 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:21:51,099 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:22:31,150 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:22:51,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:23:51,187 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:24:51,226 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:25:56,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:26:56,075 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:27:36,119 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:27:56,113 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:28:56,151 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:29:56,196 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:31:01,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:31:06,090 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:32:01,098 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:32:36,156 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2023-11-13 14:33:01,156 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:34:01,210 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:35:06,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:35:26,466 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-11-13 14:35:26,469 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-11-13 14:35:26,471 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-11-13 14:35:26,473 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-11-13 14:35:26,475 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-11-13 14:35:26,476 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2023-11-13 14:35:26,478 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2023-11-13 14:35:26,536 - uvicorn.error - INFO - Shutting down
+2023-11-13 14:35:26,645 - uvicorn.error - INFO - Waiting for application shutdown.
+2023-11-13 14:35:26,651 - uvicorn.error - INFO - Application shutdown complete.
+2023-11-13 14:35:26,654 - uvicorn.error - INFO - Finished server process [1]
+2023-11-13 14:36:13,206 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 14:36:13,207 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 14:36:13,208 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 14:36:13,208 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 14:36:13,209 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 14:36:13,209 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-11-13 14:36:13,239 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 14:36:13,239 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 14:36:13,241 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 14:36:13,245 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 14:36:13,245 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 14:36:13,257 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 14:36:13,258 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 14:36:13,259 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 14:36:13,259 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 14:36:13,260 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 14:36:13,261 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2023-11-13 14:36:13,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 14:36:13,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 14:36:13,263 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 14:36:13,264 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 14:36:13,264 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 14:36:13,265 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 14:36:13,265 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 14:36:13,266 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 14:36:13,267 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 14:36:13,267 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 14:36:13,268 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 14:36:13,268 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 14:36:13,269 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 14:36:13,270 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 14:36:13,270 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 14:36:13,271 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 14:36:13,271 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 14:36:13,272 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 14:36:13,273 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 14:36:13,273 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 14:36:13,274 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 14:36:13,274 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 14:36:13,275 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 14:36:13,275 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2023-11-13 14:36:13,276 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 14:36:13,278 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 14:36:13,278 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 14:36:13,286 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 14:36:20,131 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 14:36:20,161 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:36:20,163 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-11-13 14:36:20,471 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-11-13 14:36:20,613 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 127.0.0.1:8080
+2023-11-13 14:36:20,614 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-11-13 14:36:20,623 - uvicorn.error - INFO - Started server process [1]
+2023-11-13 14:36:20,624 - uvicorn.error - INFO - Waiting for application startup.
+2023-11-13 14:36:20,624 - uvicorn.error - INFO - Application startup complete.
+2023-11-13 14:36:20,625 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2023-11-13 14:36:20,628 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-11-13 14:36:21,789 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2023-11-13 14:36:21,803 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'USDC/USDT', 'BNT/USDT', 'TIA/USDT', 'MEME/USDT', 'MATIC/USDT', 'AVAX/USDT', 'XRP/USDT', 'DOGE/USDT', 'FTT/USDT', 'GAS/USDT', 'LINK/USDT', 'ORDI/USDT', 'FIL/USDT', 'FDUSD/USDT', 'RUNE/USDT', 'WLD/USDT', 'OP/USDT']
+2023-11-13 14:36:21,804 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 14:36:21,805 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 14:36:21,806 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 14:36:21,807 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 14:36:21,807 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 14:36:21,808 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 14:36:21,812 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 14:36:21,812 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Trailing Stoploss:* `-0.05`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `DemoStrategy`"}
+2023-11-13 14:36:21,813 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2023-11-13 14:36:26,821 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:37:26,864 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:38:26,897 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:39:26,952 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:40:02,980 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:40:03,281 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for USDC/USDT with stake_amount: 330.0 ...
+2023-11-13 14:40:04,093 - freqtrade.freqtradebot - INFO - Order dry_run_buy_USDC/USDT_1699886403.285954 was created for USDC/USDT and status is open.
+2023-11-13 14:40:04,144 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:40:04,146 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binance', 'pair': 'USDC/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.9996, 'open_rate': 0.9996, 'order_type': 'limit', 'stake_amount': 330.0, 'stake_currency': 'USDT', 'base_currency': 'USDC', 'fiat_currency': 'USD', 'amount': 330.0, 'open_date': datetime.datetime(2023, 11, 13, 14, 40, 4, 99057, tzinfo=datetime.timezone.utc), 'current_rate': 0.9996, 'sub_trade': False}
+2023-11-13 14:40:06,342 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:11,346 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:16,349 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:21,352 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:26,361 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:31,031 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:40:31,361 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:36,374 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:41,375 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:46,376 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:51,389 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:40:56,386 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:01,381 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:06,386 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:11,383 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:16,398 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:21,397 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:26,404 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:31,078 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:41:31,410 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:36,941 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:41,431 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:46,429 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:51,434 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:41:56,432 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:01,956 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:06,436 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:11,443 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:16,452 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:21,453 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:26,450 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:31,126 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:42:31,457 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:36,462 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:41,471 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:46,455 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:51,464 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:42:56,470 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:01,992 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:06,478 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:11,488 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:16,492 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:21,492 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:26,509 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:31,174 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:43:31,501 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:36,510 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:41,500 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:46,502 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:51,530 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:43:56,541 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:01,544 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:06,541 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:11,555 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:16,548 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:21,561 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:26,560 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:31,236 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:44:32,086 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:36,573 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:41,571 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:46,577 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:51,580 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:44:56,583 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:03,288 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:06,331 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:11,350 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:16,353 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:21,355 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:26,362 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:31,374 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:36,054 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:45:36,381 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:41,391 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:46,394 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:51,399 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:45:56,939 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:01,419 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:06,426 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:11,423 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:16,431 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:21,435 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:26,441 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:31,440 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:36,122 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:46:36,453 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:41,979 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:46,476 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:51,463 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:46:56,488 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:01,492 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:06,498 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:12,012 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:16,513 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:21,519 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:26,523 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:31,532 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:36,211 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:47:37,056 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:41,555 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:46,555 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:51,545 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:47:56,565 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:01,570 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:06,580 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:11,587 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:16,604 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:21,592 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:26,613 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:31,619 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:36,304 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:48:36,629 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:41,619 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:47,161 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:51,645 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:48:56,661 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:01,654 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:06,663 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:11,665 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:16,659 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:21,672 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:26,665 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:31,666 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:36,355 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:49:36,692 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:41,685 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:46,705 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:51,694 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:49:56,736 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:50:03,240 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:50:06,327 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04)
+2023-11-13 14:50:06,903 - freqtrade.freqtradebot - INFO - Buy order cancelled due to timeout for Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04).
+2023-11-13 14:50:06,906 - freqtrade.freqtradebot - INFO - Buy order fully cancelled. Removing Trade(id=1, pair=USDC/USDT, amount=330.13205282, is_short=False, leverage=1.0, open_rate=0.99960000, open_since=2023-11-13 14:40:04) from database.
+2023-11-13 14:50:06,933 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:50:06,936 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_cancel, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binance', 'pair': 'USDC/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.9996, 'order_type': 'limit', 'stake_amount': 330.0, 'open_rate': 0.9996, 'stake_currency': 'USDT', 'base_currency': 'USDC', 'fiat_currency': 'USD', 'amount': 330.1320528211284, 'open_date': datetime.datetime(2023, 11, 13, 14, 40, 4, 99057), 'current_rate': 0.9996, 'reason': 'cancelled due to timeout, fully cancelled', 'sub_trade': False}
+2023-11-13 14:50:19,593 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-11-13 14:50:19,595 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-11-13 14:50:19,597 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-11-13 14:50:19,598 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-11-13 14:50:19,600 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-11-13 14:50:19,601 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2023-11-13 14:50:19,602 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2023-11-13 14:50:19,631 - uvicorn.error - INFO - Shutting down
+2023-11-13 14:50:19,738 - uvicorn.error - INFO - Waiting for application shutdown.
+2023-11-13 14:50:19,741 - uvicorn.error - INFO - Application shutdown complete.
+2023-11-13 14:50:19,742 - uvicorn.error - INFO - Finished server process [1]
+2023-11-13 14:50:22,483 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 14:50:22,484 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 14:50:22,485 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 14:50:22,486 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 14:50:22,487 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 14:50:22,488 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-11-13 14:50:22,520 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 14:50:22,520 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 14:50:22,522 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 14:50:22,526 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 14:50:22,527 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 14:50:22,542 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2023-11-13 14:50:22,544 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 14:50:22,545 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 14:50:22,545 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 14:50:22,546 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 14:50:22,547 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2023-11-13 14:50:22,547 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 14:50:22,548 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 14:50:22,549 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2023-11-13 14:50:22,549 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-11-13 14:50:22,550 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 14:50:22,550 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 14:50:22,551 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 14:50:22,552 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 14:50:22,552 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 14:50:22,553 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 14:50:22,553 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 14:50:22,554 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 14:50:22,555 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 14:50:22,555 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 14:50:22,556 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 14:50:22,557 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 14:50:22,558 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 14:50:22,558 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 14:50:22,559 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 14:50:22,560 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 14:50:22,560 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 14:50:22,561 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 14:50:22,562 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 14:50:22,562 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2023-11-13 14:50:22,563 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 14:50:22,565 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 14:50:22,565 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 14:50:22,574 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 14:50:29,186 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 14:50:29,234 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:50:29,237 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-11-13 14:50:29,442 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-11-13 14:50:29,562 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 127.0.0.1:8080
+2023-11-13 14:50:29,564 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-11-13 14:50:29,572 - uvicorn.error - INFO - Started server process [1]
+2023-11-13 14:50:29,573 - uvicorn.error - INFO - Waiting for application startup.
+2023-11-13 14:50:29,574 - uvicorn.error - INFO - Application startup complete.
+2023-11-13 14:50:29,575 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2023-11-13 14:50:29,577 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2023-11-13 14:50:30,256 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2023-11-13 14:50:30,272 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'USDC/USDT', 'BNT/USDT', 'TIA/USDT', 'MEME/USDT', 'MATIC/USDT', 'AVAX/USDT', 'XRP/USDT', 'DOGE/USDT', 'FTT/USDT', 'LINK/USDT', 'GAS/USDT', 'ORDI/USDT', 'FIL/USDT', 'FDUSD/USDT', 'RUNE/USDT', 'WLD/USDT', 'OP/USDT']
+2023-11-13 14:50:30,273 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 14:50:30,274 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2023-11-13 14:50:30,275 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2023-11-13 14:50:30,276 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 14:50:30,276 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2023-11-13 14:50:30,277 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2023-11-13 14:50:30,278 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 14:50:30,279 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 14:50:30,279 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 14:50:30,280 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 14:50:30,284 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 14:50:30,285 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2023-11-13 14:50:30,286 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2023-11-13 14:50:32,326 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:50:32,615 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for ORDI/USDT with stake_amount: 330.0 ...
+2023-11-13 14:50:32,906 - freqtrade.freqtradebot - INFO - Order dry_run_buy_ORDI/USDT_1699887032.619763 was created for ORDI/USDT and status is open.
+2023-11-13 14:50:32,954 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:50:32,956 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binance', 'pair': 'ORDI/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 21.043, 'open_rate': 21.043, 'order_type': 'limit', 'stake_amount': 330.0, 'stake_currency': 'USDT', 'base_currency': 'ORDI', 'fiat_currency': 'USD', 'amount': 15.68, 'open_date': datetime.datetime(2023, 11, 13, 14, 50, 32, 912871, tzinfo=datetime.timezone.utc), 'current_rate': 21.043, 'sub_trade': False}
+2023-11-13 14:50:35,290 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:50:35,622 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ORDI/USDT, amount=15.68217459, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32)
+2023-11-13 14:50:40,634 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ORDI/USDT, amount=15.68217459, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32)
+2023-11-13 14:50:40,649 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=ORDI/USDT, amount=15.68217459, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32) [buy]: 0.32995424 USDT - rate: 0.001
+2023-11-13 14:50:40,653 - freqtrade.persistence.trade_model - INFO - Updating trade (id=1) ...
+2023-11-13 14:50:40,654 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32).
+2023-11-13 14:50:40,659 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:50:40,661 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_fill, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binance', 'pair': 'ORDI/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 21.043, 'open_rate': 21.043, 'order_type': 'limit', 'stake_amount': 329.95424, 'stake_currency': 'USDT', 'base_currency': 'ORDI', 'fiat_currency': 'USD', 'amount': 15.68, 'open_date': datetime.datetime(2023, 11, 13, 14, 50, 32, 912871, tzinfo=datetime.timezone.utc), 'current_rate': 21.043, 'sub_trade': False}
+2023-11-13 14:51:35,339 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:52:35,388 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:53:35,425 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:54:26,012 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-11-13 14:54:26,016 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-11-13 14:54:26,017 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-11-13 14:54:26,018 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-11-13 14:54:26,021 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "1 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2023-11-13 14:54:26,022 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-11-13 14:54:26,023 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2023-11-13 14:54:26,024 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2023-11-13 14:54:26,102 - uvicorn.error - INFO - Shutting down
+2023-11-13 14:54:26,207 - uvicorn.error - INFO - Waiting for application shutdown.
+2023-11-13 14:54:26,212 - uvicorn.error - INFO - Application shutdown complete.
+2023-11-13 14:54:26,215 - uvicorn.error - INFO - Finished server process [1]
+2023-11-13 14:54:31,630 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 14:54:31,630 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 14:54:31,631 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 14:54:31,632 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 14:54:31,633 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 14:54:31,634 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 14:54:31,666 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 14:54:31,667 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 14:54:31,668 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 14:54:31,673 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 14:54:31,674 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 14:54:31,689 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2023-11-13 14:54:31,690 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 14:54:31,691 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 14:54:31,692 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 14:54:31,693 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 14:54:31,694 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 14:54:31,694 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 14:54:31,695 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 14:54:31,696 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2023-11-13 14:54:31,696 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-11-13 14:54:31,697 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 14:54:31,698 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 14:54:31,698 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 14:54:31,699 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 14:54:31,699 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 14:54:31,700 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 14:54:31,701 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 14:54:31,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 14:54:31,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 14:54:31,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 14:54:31,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 14:54:31,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 14:54:31,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 14:54:31,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 14:54:31,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 14:54:31,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 14:54:31,707 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 14:54:31,708 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 14:54:31,708 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 14:54:31,709 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 14:54:31,709 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 14:54:31,711 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 14:54:31,712 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 14:54:31,713 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 14:54:31,717 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 14:54:31,722 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 14:54:38,301 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 14:54:38,354 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:54:38,365 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 14:54:38,482 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-11-13 14:54:38,600 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2023-11-13 14:54:38,601 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-11-13 14:54:38,610 - uvicorn.error - INFO - Started server process [1]
+2023-11-13 14:54:38,611 - uvicorn.error - INFO - Waiting for application startup.
+2023-11-13 14:54:38,612 - uvicorn.error - INFO - Application startup complete.
+2023-11-13 14:54:38,613 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2023-11-13 14:54:38,623 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 14:54:38,627 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2023-11-13 14:54:38,628 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 14:54:38,629 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2023-11-13 14:54:38,629 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2023-11-13 14:54:38,630 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 14:54:38,631 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2023-11-13 14:54:38,632 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2023-11-13 14:54:38,633 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 14:54:38,633 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 14:54:38,634 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 14:54:38,635 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 14:54:38,636 - freqtrade.util.binance_mig - WARNING - Migrating binance futures pairs in database.
+2023-11-13 14:54:38,638 - freqtrade.util.binance_mig - WARNING - Done migrating binance futures pairs in database.
+2023-11-13 14:54:38,643 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 14:54:38,643 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2023-11-13 14:54:38,644 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2023-11-13 14:54:38,646 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32)
+2023-11-13 14:54:41,612 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:54:41,615 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:54:41,912 - freqtrade.freqtradebot - INFO - No currency pair in active pair whitelist, but checking to exit open trades.
+2023-11-13 14:54:45,485 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:54:45,521 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:54:45,526 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:54:50,524 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:54:50,527 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:54:55,526 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:54:55,529 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:01,968 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:01,969 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:06,015 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:06,018 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:08,121 - uvicorn.error - INFO - ('172.23.0.1', 52592) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE2OTk4ODgyMDgsImlhdCI6MTY5OTg4NzMwOCwidHlwZSI6ImFjY2VzcyJ9.UUuxUMX3x2bZ3CAFmW7WukRs5mBw0E0JxEjb-aE1O18" [accepted]
+2023-11-13 14:55:08,131 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(724a58f0, ('172.23.0.1', 52592))
+2023-11-13 14:55:08,135 - uvicorn.error - INFO - connection open
+2023-11-13 14:55:11,035 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:11,038 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:16,042 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:16,046 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:21,051 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:21,053 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:26,055 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:26,057 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:31,054 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:31,058 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:36,056 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:36,058 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:41,069 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:41,072 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:46,035 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:55:46,070 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:46,072 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:51,072 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:51,075 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:55:56,074 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:55:56,077 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:01,082 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:01,085 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:03,116 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-11-13 14:56:03,118 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-11-13 14:56:03,119 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-11-13 14:56:03,120 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-11-13 14:56:03,122 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "1 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2023-11-13 14:56:03,124 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-11-13 14:56:03,124 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2023-11-13 14:56:03,125 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2023-11-13 14:56:03,137 - uvicorn.error - INFO - Shutting down
+2023-11-13 14:56:03,140 - uvicorn.error - INFO - connection closed
+2023-11-13 14:56:03,142 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(724a58f0, ('172.23.0.1', 52592))
+2023-11-13 14:56:03,244 - uvicorn.error - INFO - Waiting for application shutdown.
+2023-11-13 14:56:03,246 - uvicorn.error - INFO - Application shutdown complete.
+2023-11-13 14:56:03,247 - uvicorn.error - INFO - Finished server process [1]
+2023-11-13 14:56:05,569 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 14:56:05,569 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 14:56:05,570 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 14:56:05,571 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 14:56:05,571 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 14:56:05,572 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 14:56:05,604 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 14:56:05,604 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 14:56:05,605 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 14:56:05,609 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 14:56:05,610 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 14:56:05,621 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 14:56:05,622 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 14:56:05,622 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 14:56:05,623 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 14:56:05,624 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 14:56:05,624 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 14:56:05,625 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 14:56:05,625 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 14:56:05,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 14:56:05,627 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 14:56:05,627 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 14:56:05,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 14:56:05,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 14:56:05,629 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 14:56:05,630 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 14:56:05,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 14:56:05,631 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 14:56:05,632 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 14:56:05,634 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 14:56:05,636 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 14:56:05,636 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 14:56:05,637 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 14:56:05,637 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 14:56:05,638 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 14:56:05,639 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 14:56:05,639 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 14:56:05,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 14:56:05,641 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 14:56:05,641 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 14:56:05,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 14:56:05,642 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 14:56:05,644 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 14:56:05,645 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 14:56:05,646 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 14:56:05,650 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 14:56:05,654 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 14:56:13,325 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 14:56:13,371 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:13,380 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 14:56:13,505 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-11-13 14:56:13,620 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2023-11-13 14:56:13,621 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-11-13 14:56:13,630 - uvicorn.error - INFO - Started server process [1]
+2023-11-13 14:56:13,631 - uvicorn.error - INFO - Waiting for application startup.
+2023-11-13 14:56:13,632 - uvicorn.error - INFO - Application startup complete.
+2023-11-13 14:56:13,632 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2023-11-13 14:56:13,641 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 14:56:13,645 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2023-11-13 14:56:13,646 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 14:56:13,647 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 14:56:13,648 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 14:56:13,649 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 14:56:13,649 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 14:56:13,650 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 14:56:13,651 - freqtrade.util.binance_mig - WARNING - Migrating binance futures pairs in database.
+2023-11-13 14:56:13,653 - freqtrade.util.binance_mig - WARNING - Done migrating binance futures pairs in database.
+2023-11-13 14:56:13,657 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 14:56:13,658 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Trailing Stoploss:* `-0.05`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `DemoStrategy`"}
+2023-11-13 14:56:13,659 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2023-11-13 14:56:13,661 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32)
+2023-11-13 14:56:13,662 - freqtrade.persistence.trade_model - INFO - Stoploss for Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32) needs adjustment...
+2023-11-13 14:56:13,662 - freqtrade.persistence.trade_model - INFO - New stoploss: 19.991.
+2023-11-13 14:56:16,342 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:16,345 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:16,650 - freqtrade.freqtradebot - INFO - No currency pair in active pair whitelist, but checking to exit open trades.
+2023-11-13 14:56:20,492 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:56:20,532 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:20,535 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:25,532 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:25,535 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:30,534 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:30,537 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:35,527 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:35,529 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:40,540 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:40,543 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:45,550 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:45,552 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:50,551 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:50,553 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:56:55,547 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:56:55,550 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:00,558 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:00,561 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:05,560 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:05,563 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:10,562 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:10,566 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:15,566 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:15,570 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:20,541 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:57:20,581 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:20,584 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:25,582 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:25,584 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:30,580 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:30,582 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:35,584 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:35,588 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:40,583 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:40,586 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:45,592 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:45,593 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:50,596 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:50,600 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:57:55,607 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:57:55,610 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:00,603 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:00,606 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:05,613 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:05,616 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:10,610 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:10,614 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:15,622 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:15,625 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:20,588 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:58:20,632 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:20,635 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:25,628 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:25,631 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:30,629 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:30,631 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:35,637 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:35,640 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:40,637 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:40,641 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:45,653 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:45,655 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:50,644 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:50,647 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:58:55,646 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:58:55,650 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:00,657 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:00,660 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:05,653 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:05,656 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:10,664 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:10,667 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:15,662 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:15,667 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:20,639 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 14:59:20,673 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:20,676 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:25,679 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:25,682 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:30,691 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:30,694 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:35,666 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:35,667 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:40,701 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:40,704 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:45,702 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:45,704 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:50,700 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:50,703 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 14:59:55,714 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 14:59:55,717 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:01,599 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:01,601 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:06,038 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:06,039 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:11,042 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:11,045 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:16,043 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:16,046 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:21,014 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:00:21,038 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:21,040 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:26,051 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:26,057 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:31,051 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:31,054 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:31,378 - uvicorn.error - INFO - ('172.23.0.1', 47974) - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE2OTk4ODgyMDgsImlhdCI6MTY5OTg4NzMwOCwidHlwZSI6ImFjY2VzcyJ9.UUuxUMX3x2bZ3CAFmW7WukRs5mBw0E0JxEjb-aE1O18" [accepted]
+2023-11-13 15:00:31,380 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(e0a39906, ('172.23.0.1', 47974))
+2023-11-13 15:00:31,382 - uvicorn.error - INFO - connection open
+2023-11-13 15:00:36,047 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:36,049 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:41,057 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:41,061 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:46,052 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:46,055 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:51,064 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:51,068 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:00:56,057 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:00:56,060 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:01,065 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:01,069 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:06,062 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:06,066 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:08,072 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:11,064 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:11,069 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:16,068 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:16,070 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:21,045 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:01:21,074 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:21,077 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:21,896 - freqtrade.freqtradebot - INFO - No currency pair in active pair whitelist, but checking to exit open trades.
+2023-11-13 15:01:26,082 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:26,084 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:31,093 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:31,097 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:36,083 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:36,086 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:41,086 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:41,089 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:46,099 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:46,104 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:51,111 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:51,115 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:01:56,113 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:01:56,116 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:01,105 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:01,107 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:06,123 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:06,126 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:11,118 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:11,122 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:16,129 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:16,133 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:21,093 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:02:21,129 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:21,131 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:26,125 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:26,128 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:31,124 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:31,129 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:36,143 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:36,146 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:41,138 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:41,143 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:46,148 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:46,151 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:51,144 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:51,147 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:02:56,148 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:02:56,151 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:01,162 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:01,166 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:06,154 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:06,157 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:11,153 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:11,156 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:16,160 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:16,163 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:21,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:03:21,183 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:21,186 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:26,186 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:26,189 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:31,184 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:31,187 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:36,191 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:36,194 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:41,191 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:41,194 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:46,201 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:46,204 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:51,204 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:51,206 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:03:56,208 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:03:56,211 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:01,218 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:01,221 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:06,220 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:06,223 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:11,209 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:11,211 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:16,234 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:16,239 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:21,195 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:04:21,207 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:21,209 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:26,237 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:26,241 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:31,219 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:31,221 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:04:35,812 - freqtrade.commands.trade_commands - INFO - SIGINT received, aborting ...
+2023-11-13 15:04:35,815 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2023-11-13 15:04:35,816 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2023-11-13 15:04:35,817 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2023-11-13 15:04:35,820 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "1 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2023-11-13 15:04:35,822 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2023-11-13 15:04:35,824 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2023-11-13 15:04:35,825 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2023-11-13 15:04:35,917 - uvicorn.error - INFO - Shutting down
+2023-11-13 15:04:35,925 - uvicorn.error - INFO - connection closed
+2023-11-13 15:04:35,930 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(e0a39906, ('172.23.0.1', 47974))
+2023-11-13 15:04:36,029 - uvicorn.error - INFO - Waiting for application shutdown.
+2023-11-13 15:04:36,031 - uvicorn.error - INFO - Application shutdown complete.
+2023-11-13 15:04:36,032 - uvicorn.error - INFO - Finished server process [1]
+2023-11-13 15:04:41,142 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 15:04:41,142 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 15:04:41,143 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 15:04:41,144 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 15:04:41,144 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 15:04:41,145 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 15:04:41,178 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 15:04:41,179 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 15:04:41,180 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 15:04:41,184 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 15:04:41,185 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 15:04:41,196 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 15:04:41,197 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 15:04:41,198 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 15:04:41,199 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 15:04:41,200 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 15:04:41,200 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 15:04:41,201 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 15:04:41,202 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 15:04:41,202 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 15:04:41,203 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 15:04:41,204 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 15:04:41,204 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 15:04:41,205 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 15:04:41,206 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 15:04:41,206 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 15:04:41,207 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 15:04:41,207 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 15:04:41,208 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 15:04:41,209 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 15:04:41,209 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 15:04:41,210 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 15:04:41,211 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 15:04:41,212 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 15:04:41,212 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 15:04:41,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 15:04:41,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 15:04:41,214 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 15:04:41,215 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 15:04:41,215 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 15:04:41,216 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 15:04:41,216 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 15:04:41,218 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 15:04:41,219 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 15:04:41,220 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:04:41,224 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:04:41,228 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 15:04:47,619 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 15:04:47,665 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:47,666 - freqtrade.commands.trade_commands - ERROR - No Pairlist Handlers defined
+2023-11-13 15:04:47,667 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+             ^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 85, in __init__
+    self.pairlists = PairListManager(self.exchange, self.config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/plugins/pairlistmanager.py", line 48, in __init__
+    raise OperationalException("No Pairlist Handlers defined")
+freqtrade.exceptions.OperationalException: No Pairlist Handlers defined
+2023-11-13 15:04:49,698 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 15:04:49,698 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 15:04:49,699 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 15:04:49,699 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 15:04:49,700 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 15:04:49,701 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 15:04:49,721 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 15:04:49,722 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 15:04:49,723 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 15:04:49,727 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 15:04:49,728 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 15:04:49,737 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 15:04:49,738 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 15:04:49,739 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 15:04:49,740 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 15:04:49,741 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 15:04:49,741 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 15:04:49,742 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 15:04:49,743 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 15:04:49,743 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 15:04:49,744 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 15:04:49,745 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 15:04:49,745 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 15:04:49,746 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 15:04:49,746 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 15:04:49,747 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 15:04:49,748 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 15:04:49,748 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 15:04:49,749 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 15:04:49,749 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 15:04:49,750 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 15:04:49,751 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 15:04:49,751 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 15:04:49,752 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 15:04:49,752 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 15:04:49,753 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 15:04:49,753 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 15:04:49,754 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 15:04:49,755 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 15:04:49,755 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 15:04:49,756 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 15:04:49,756 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 15:04:49,758 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 15:04:49,759 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 15:04:49,760 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:04:49,764 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:04:49,769 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 15:04:56,093 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 15:04:56,128 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:04:56,129 - freqtrade.commands.trade_commands - ERROR - No Pairlist Handlers defined
+2023-11-13 15:04:56,130 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+             ^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 85, in __init__
+    self.pairlists = PairListManager(self.exchange, self.config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/plugins/pairlistmanager.py", line 48, in __init__
+    raise OperationalException("No Pairlist Handlers defined")
+freqtrade.exceptions.OperationalException: No Pairlist Handlers defined
+2023-11-13 15:04:58,252 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 15:04:58,253 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 15:04:58,253 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 15:04:58,254 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 15:04:58,255 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 15:04:58,255 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 15:04:58,288 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 15:04:58,288 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 15:04:58,289 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 15:04:58,293 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 15:04:58,294 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 15:04:58,304 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 15:04:58,305 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 15:04:58,305 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 15:04:58,306 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 15:04:58,307 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 15:04:58,307 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 15:04:58,308 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 15:04:58,308 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 15:04:58,309 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 15:04:58,310 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 15:04:58,310 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 15:04:58,311 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 15:04:58,312 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 15:04:58,312 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 15:04:58,313 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 15:04:58,313 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 15:04:58,314 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 15:04:58,315 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 15:04:58,315 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 15:04:58,316 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 15:04:58,316 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 15:04:58,317 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 15:04:58,318 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 15:04:58,318 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 15:04:58,319 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 15:04:58,319 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 15:04:58,320 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 15:04:58,320 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 15:04:58,321 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 15:04:58,322 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 15:04:58,322 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 15:04:58,324 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 15:04:58,325 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 15:04:58,325 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:04:58,330 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:04:58,334 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 15:05:04,684 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 15:05:04,725 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:04,726 - freqtrade.commands.trade_commands - ERROR - No Pairlist Handlers defined
+2023-11-13 15:05:04,726 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+             ^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 85, in __init__
+    self.pairlists = PairListManager(self.exchange, self.config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/plugins/pairlistmanager.py", line 48, in __init__
+    raise OperationalException("No Pairlist Handlers defined")
+freqtrade.exceptions.OperationalException: No Pairlist Handlers defined
+2023-11-13 15:05:07,145 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 15:05:07,146 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 15:05:07,146 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 15:05:07,147 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 15:05:07,148 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 15:05:07,149 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 15:05:07,178 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 15:05:07,179 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 15:05:07,180 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 15:05:07,184 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 15:05:07,184 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 15:05:07,194 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 15:05:07,195 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 15:05:07,196 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 15:05:07,197 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 15:05:07,197 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 15:05:07,198 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 15:05:07,199 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 15:05:07,199 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 15:05:07,200 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 15:05:07,201 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 15:05:07,201 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 15:05:07,202 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 15:05:07,202 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 15:05:07,203 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 15:05:07,204 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 15:05:07,204 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 15:05:07,205 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 15:05:07,205 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 15:05:07,206 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 15:05:07,206 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 15:05:07,207 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 15:05:07,208 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 15:05:07,209 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 15:05:07,209 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 15:05:07,210 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 15:05:07,210 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 15:05:07,211 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 15:05:07,213 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 15:05:07,214 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 15:05:07,214 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 15:05:07,215 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 15:05:07,217 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 15:05:07,217 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 15:05:07,218 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:05:07,222 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:05:07,226 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 15:05:13,773 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 15:05:13,821 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:13,823 - freqtrade.commands.trade_commands - ERROR - No Pairlist Handlers defined
+2023-11-13 15:05:13,824 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+             ^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 85, in __init__
+    self.pairlists = PairListManager(self.exchange, self.config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/plugins/pairlistmanager.py", line 48, in __init__
+    raise OperationalException("No Pairlist Handlers defined")
+freqtrade.exceptions.OperationalException: No Pairlist Handlers defined
+2023-11-13 15:05:16,644 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 15:05:16,646 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 15:05:16,646 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 15:05:16,647 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 15:05:16,648 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 15:05:16,649 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 15:05:16,681 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 15:05:16,681 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 15:05:16,682 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 15:05:16,686 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 15:05:16,687 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 15:05:16,698 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 15:05:16,699 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 15:05:16,700 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 15:05:16,700 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 15:05:16,701 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 15:05:16,702 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 15:05:16,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 15:05:16,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 15:05:16,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 15:05:16,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 15:05:16,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 15:05:16,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 15:05:16,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 15:05:16,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 15:05:16,707 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 15:05:16,708 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 15:05:16,708 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 15:05:16,709 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 15:05:16,709 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 15:05:16,710 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 15:05:16,710 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 15:05:16,711 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 15:05:16,712 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 15:05:16,712 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 15:05:16,713 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 15:05:16,713 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 15:05:16,714 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 15:05:16,714 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 15:05:16,715 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 15:05:16,716 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 15:05:16,716 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 15:05:16,718 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 15:05:16,719 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 15:05:16,719 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:05:16,724 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:05:16,728 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 15:05:23,768 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 15:05:23,830 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:23,831 - freqtrade.commands.trade_commands - ERROR - No Pairlist Handlers defined
+2023-11-13 15:05:23,832 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+             ^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 85, in __init__
+    self.pairlists = PairListManager(self.exchange, self.config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/plugins/pairlistmanager.py", line 48, in __init__
+    raise OperationalException("No Pairlist Handlers defined")
+freqtrade.exceptions.OperationalException: No Pairlist Handlers defined
+2023-11-13 15:05:27,583 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-11-13 15:05:27,584 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-11-13 15:05:27,585 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-11-13 15:05:27,585 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-11-13 15:05:27,586 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-11-13 15:05:27,587 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2023-11-13 15:05:27,618 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-11-13 15:05:27,619 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-11-13 15:05:27,620 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-11-13 15:05:27,624 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-11-13 15:05:27,625 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-11-13 15:05:27,636 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DemoStrategy from '/freqtrade/user_data/strategies/demo_strategy.py'...
+2023-11-13 15:05:27,637 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-11-13 15:05:27,638 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-11-13 15:05:27,638 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2023-11-13 15:05:27,639 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-11-13 15:05:27,640 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2023-11-13 15:05:27,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2023-11-13 15:05:27,641 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2023-11-13 15:05:27,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2023-11-13 15:05:27,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2023-11-13 15:05:27,643 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-11-13 15:05:27,644 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-11-13 15:05:27,644 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-11-13 15:05:27,645 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-11-13 15:05:27,645 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2023-11-13 15:05:27,646 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-11-13 15:05:27,647 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-11-13 15:05:27,647 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2023-11-13 15:05:27,648 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-11-13 15:05:27,648 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2023-11-13 15:05:27,649 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-11-13 15:05:27,650 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-11-13 15:05:27,650 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-11-13 15:05:27,651 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-11-13 15:05:27,651 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-11-13 15:05:27,652 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-11-13 15:05:27,653 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-11-13 15:05:27,653 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2023-11-13 15:05:27,654 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-11-13 15:05:27,654 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2023-11-13 15:05:27,655 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-11-13 15:05:27,657 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-11-13 15:05:27,657 - freqtrade.exchange.exchange - INFO - Using CCXT 4.1.22
+2023-11-13 15:05:27,658 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:05:27,662 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-11-13 15:05:27,666 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2023-11-13 15:05:34,632 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2023-11-13 15:05:34,676 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:34,685 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 15:05:34,997 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2023-11-13 15:05:35,137 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2023-11-13 15:05:35,138 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2023-11-13 15:05:35,146 - uvicorn.error - INFO - Started server process [1]
+2023-11-13 15:05:35,147 - uvicorn.error - INFO - Waiting for application startup.
+2023-11-13 15:05:35,148 - uvicorn.error - INFO - Application startup complete.
+2023-11-13 15:05:35,149 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2023-11-13 15:05:35,158 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2023-11-13 15:05:35,161 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2023-11-13 15:05:35,162 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2023-11-13 15:05:35,163 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2023-11-13 15:05:35,164 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2023-11-13 15:05:35,164 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2023-11-13 15:05:35,165 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2023-11-13 15:05:35,166 - freqtrade.worker - INFO - Changing state to: RUNNING
+2023-11-13 15:05:35,166 - freqtrade.util.binance_mig - WARNING - Migrating binance futures pairs in database.
+2023-11-13 15:05:35,169 - freqtrade.util.binance_mig - WARNING - Done migrating binance futures pairs in database.
+2023-11-13 15:05:35,173 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2023-11-13 15:05:35,174 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Trailing Stoploss:* `-0.05`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `DemoStrategy`"}
+2023-11-13 15:05:35,174 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2023-11-13 15:05:35,176 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32)
+2023-11-13 15:05:37,450 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:37,452 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:05:37,790 - freqtrade.freqtradebot - INFO - No currency pair in active pair whitelist, but checking to exit open trades.
+2023-11-13 15:05:42,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:05:42,053 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:42,054 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:05:47,059 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:47,062 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:05:52,073 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:52,077 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:05:57,083 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:05:57,086 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:02,072 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:02,077 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:07,082 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:07,086 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:12,089 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:12,094 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:17,078 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:17,080 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:22,076 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:22,080 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:27,094 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:27,096 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:32,102 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:32,105 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:37,100 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:37,104 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:42,074 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:06:42,106 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:42,109 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:47,126 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:47,129 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:52,114 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:52,117 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:06:57,119 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:06:57,125 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:02,100 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:02,102 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:07,128 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:07,132 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:12,116 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:12,118 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:17,154 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:17,158 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:22,133 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:22,136 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:27,133 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:27,136 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:32,135 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:32,139 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:37,132 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:37,134 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:42,106 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:07:42,139 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:42,142 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:47,147 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:47,150 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:52,141 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:52,143 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:07:57,149 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:07:57,153 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:02,128 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:02,129 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:07,160 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:07,161 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:12,167 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:12,170 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:17,151 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:17,154 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:22,185 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:22,188 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:27,178 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:27,184 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:32,178 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:32,181 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:37,186 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:37,190 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:42,157 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2023.10', state='RUNNING'
+2023-11-13 15:08:42,195 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:42,198 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
+2023-11-13 15:08:47,223 - freqtrade.wallets - INFO - Wallets synced.
+2023-11-13 15:08:47,227 - freqtrade.freqtradebot - WARNING - Not enough ORDI in wallet to exit Trade(id=1, pair=ORDI/USDT, amount=15.68000000, is_short=False, leverage=1.0, open_rate=21.04300000, open_since=2023-11-13 14:50:32). Trying to recover.
